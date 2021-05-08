@@ -52,5 +52,5 @@ def profanity_filter():
 
 
 if __name__ == "__main__":
-    app.run(host=os.environ.get('HOST') or "localhost",
-            port=os.environ.get('PORT') or 8081)
+    app.run(host=os.environ.get('HOST') or "0.0.0.0",
+            port=os.environ.get('PORT') or 5000)
